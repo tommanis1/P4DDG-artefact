@@ -1,0 +1,6 @@
+[submodule "/personal/docs/uni/year_6/papers/p4ddg/artifact/submodules/P4ddgC"]
+	path = /personal/docs/uni/year_6/papers/p4ddg/artifact/submodules/P4ddgC
+	url = https://github.com/tommanis1/P4DDG
+[submodule "submodules/p4c"]
+	path = submodules/p4c
+	url = https://github.com/tommanis1/p4c
