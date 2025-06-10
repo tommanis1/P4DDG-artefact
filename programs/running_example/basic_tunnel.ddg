@@ -1,0 +1,7 @@
+MyParser = hdr.ethernet Tunnel(hdr.ethernet.etherType) $
+
+Tunnel(bit<16> type) = 
+[type == TYPE_IPV4] hdr.ipv4
+| [type == TYPE_TUNNEL] hdr.tunnel Tunnel(hdr.tunnel.protoid)
+| ()
+$
