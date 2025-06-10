@@ -1,7 +1,7 @@
 [submodule "submodules/P4ddgC"]
 	path = submodules/P4ddgC
 	url = https://github.com/tommanis1/P4DDG
-	branch = fixed-2026-06-10
+	branch = fixed-2025-06-10
 [submodule "submodules/p4c"]
 	path = submodules/p4c
 	url = https://github.com/tommanis1/p4c
