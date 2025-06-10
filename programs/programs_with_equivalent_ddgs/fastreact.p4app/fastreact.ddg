@@ -1,0 +1,10 @@
+MyParser = 
+
+    hdr.ethernet
+    case  hdr.ethernet.etherType of 
+        % ethernet_kind.ipv4 -> hdr.ipv4 %
+        % ethernet_kind.sensor -> 
+                                hdr.sensordata hdr.ipv4 %
+        % _ -> () %
+        
+    $
