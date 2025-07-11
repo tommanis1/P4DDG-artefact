@@ -7,6 +7,7 @@ import matplotlib.patches as mpatches
 from matplotlib.ticker import ScalarFormatter
 from dataclasses import dataclass
 from typing import List, Dict, TypeVar, Generic
+plt.rcParams['text.usetex'] = True
 
 T = TypeVar("T")
 
@@ -95,8 +96,8 @@ def main():
     print(f"Found {len(pairs)} equivalent pairs to test")
     
     # Parameters for testing
-    num_packets = 150
-    repeat = 15
+    num_packets = 75
+    repeat = 50
     
     
     # Store results

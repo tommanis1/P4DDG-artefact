@@ -11,15 +11,13 @@ from typing import List, Dict, TypeVar, Generic
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.patches as mpatches
+
+plt.rcParams['text.usetex'] = True
+
 # import parser as p
 
-N_PACKETS=64
-REPEAT_EACH_PACKET = 100
-
-# options = {
-#     "stack_usage": {"-n":64, "-r": 100},
-#     "avg_delay": {"-n": 500, "-r": 250},
-# }
+N_PACKETS=128
+REPEAT_EACH_PACKET = 50
 
 def write_to_file(chart, filename):
     with open(filename, "w") as f:
@@ -146,37 +144,37 @@ def main():
                 # print(f"len delays {len(delays)} ")
                 # results.append((desc, delays))
                 delays = []
+                std_errors = []
+                print(f"len(results): {len(r)}")
                 for result in r:
                     d = []
                     for m in result.measurements:
                         d.append(m.value)
                     avg = sum(d)/len(d)
+                    # Calculate standard error of the mean (SEM)
+                    std_dev = np.std(d, ddof=1)  # ddof=1 for sample standard deviation
+                    sem = std_dev / np.sqrt(len(d))
+                    print(f"len(d) {len(d)} {d}")
                     delays.append(avg)
-                # d = {}
-                # for packet_id in range(len(r[0].measurements)):
-                #     d[packet_id] = []
-                # for packet_run in r:
-                #     for i, m in enumerate(packet_run.measurements):
-                #         d[i].append(m.value)
-                # delays = []
-                # for packet_id in d:
-                #     avg = sum(d[packet_id])/len(d[packet_id])
-                #     delays.append(avg)
-                # print(f"delays {delays}")
-                results.append((desc, delays))
+                    std_errors.append(sem)
+                results.append((desc, delays, std_errors))
 
                 subprocess.call(f"cp /tmp/p4ddg-experiment-runner-log.txt {out_dir}", shell=True)
                 subprocess.call(f"cp -r /tmp/p4ddg-experiment-runner-tmp/ {out_dir}",  shell=True)
             
             plot_data = line_plot.Plot(
-            x_axis=list(range(1, num_packets+1)), 
-            x_axis_label=x_label,
-            y_axis_label=y_label,
-            title=title,
-            lines=[
-                line_plot.LinesResult(result=delays, name=desc) for desc, delays in results
-            ]
-)
+                x_axis=list(range(1, num_packets+1)), 
+                x_axis_label=x_label,
+                y_axis_label=y_label,
+                title=title,
+                lines=[
+                    line_plot.LinesResult(
+                        result=delays,
+                        name=desc,
+                        yerr=std_errors
+                    ) for desc, delays, std_errors in results
+                ]
+            )
             line_plot.plot_graph(plot_data, "img/stack-usage-graph")
 
             # print(decimal_to_hex_string(32, pad=4))

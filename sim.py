@@ -17,7 +17,6 @@ class Measurement(NamedTuple):
 class Result(NamedTuple):
     packet: str  # The packet used
     measurements: List[Measurement]  # The associated measurements
-
 def call(cmd, silent=False):
     if not silent: logging.debug(f"Executing command: {cmd}")
     try:

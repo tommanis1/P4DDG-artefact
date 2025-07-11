@@ -2,11 +2,13 @@ from dataclasses import dataclass
 from typing import List 
 import matplotlib.pyplot as plt
 import numpy as np
+plt.rcParams['text.usetex'] = True
 
 @dataclass
 class LinesResult:
-    result:list
-    name:str
+    result: list
+    name: str
+    yerr: list = None
 
 @dataclass
 class Plot:
@@ -23,22 +25,33 @@ def plot_graph(plot: Plot, fp):
     title = plot.title
     lines = plot.lines
 
-    plt.figure()
+    plt.figure(figsize=(10, 6))
 
     for line in lines:
-        plt.plot(x_axis, line.result, label=line.name)
+        if line.yerr is not None:
+            plt.errorbar(x_axis, line.result, 
+                        yerr=line.yerr,
+                        label=line.name,
+                        capsize=3,
+                        capthick=1,
+                        elinewidth=1,
+                        marker='o',
+                        markersize=4,
+                        linestyle='-',
+                        alpha=0.8)
+        else:
+            plt.plot(x_axis, line.result, label=line.name)
 
     plt.xlabel(x_axis_label)
     plt.ylabel(y_axis_label)
-    # plt.title(title)
-    plt.legend()
-    # plt.xticks(ticks=x_axis, labels=[str(int(x)) for x in x_axis], rotation=-90, ha="right")
-    tick_indices = np.arange(0, len(x_axis), 4)
+    plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+    tick_indices = np.arange(0, len(x_axis), 8)  # Show fewer ticks for clarity
     tick_values = [x_axis[i] for i in tick_indices]
     tick_labels = [str(int(x)) for x in tick_values]
 
     plt.xticks(ticks=tick_values, labels=tick_labels, rotation=45, ha="right")
-    # plt.gcf().autofmt_xdate()
+    plt.grid(True, linestyle='--', alpha=0.3)
+    plt.tight_layout()
 
     plt.savefig(fp, dpi=300, bbox_inches="tight")
     plt.savefig(fp + ".pdf", bbox_inches="tight")
