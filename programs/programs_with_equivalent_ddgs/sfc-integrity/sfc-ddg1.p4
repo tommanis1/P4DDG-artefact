@@ -102,7 +102,6 @@ parser MyParser (packet_in packet,
     inout standard_metadata_t standard_metadata) {
 
 // Make these global variables of the parser
-
 return_stack_type[16] return_stack;
 bit<8> return_stack_index = 0;
 state start {
@@ -117,7 +116,7 @@ state state_1 {
     transition state_32;
 }
 state state_4 {
-    transition accept;
+    transition state_continue;
 }
 state state_6 {
     transition select (hdr.ethernet.etherType  == TYPE_NSH ,hdr.ethernet.etherType  == TYPE_IPV4 ) {
@@ -147,7 +146,7 @@ state state_24 {
     transition state_1;
 }
 state state_30 {
-    transition accept;
+    transition state_continue;
 }
 state state_32 {
     transition select (hdr.ipv4.protocol  == TYPE_TCP ,hdr.ipv4.protocol  == TYPE_UDP ) {

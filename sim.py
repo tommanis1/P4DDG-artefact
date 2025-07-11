@@ -252,23 +252,13 @@ def run_bmv2(sf, packets, n, r, p, p4app_bin="submodules/p4app/p4app" ):
     lines_log = None
     with open(f"{p4_app_dir}/p4s.s1.log", "r") as f_log:
         lines_log = f_log.readlines()
+    with open("/tmp/p4ddg-experiment-runner-log.txt") as log:
+        content = log.read()
+        if "Error occurred: Command '['p4c-bm2-ss'," in content:
+            print("ERROR, the p4c compiler crashed, this should never happen")
+            sys.exit(1)
     
     result = add_delay(process_p4s_log(lines_log), r)
     result = format_per_packet(result, packets, r)
 
     return result
-    # delays = compute_delays_per_packet(timestamps, r)
-    # 
-    # avg_delay = compute_delay(timestamps)
-    # print(f"Average delay for {f}: {avg_delay}")
-    # logging.debug(f"Average delay for {f}: {avg_delay}")
-    # if out_dir:
-    #     call(f"cp -r {p4_app_dir}/* {out_dir}")
-    #     call(f"cp /tmp/p4ddg-experiment-runner-log.txt {out_dir}")
-    
-    # split_by_r = analysis(lines_log, args.n, args.r)
-    # c = []
-    # logging.debug(f"539 {packets}")
-    # for i, logs in enumerate(split_by_r):
-    #     packet = packets[i]
-    #     c.append({"logs": logs, "packet":packet})

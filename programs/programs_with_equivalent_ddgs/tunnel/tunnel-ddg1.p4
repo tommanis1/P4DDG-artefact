@@ -57,9 +57,9 @@ parser MyParser (packet_in packet,
     inout standard_metadata_t standard_metadata) {
 
 // Make these global variables of the parser
-    bit<16> type;
 return_stack_type[16] return_stack;
 bit<8> return_stack_index = 0;
+bit<16> type;
 state start {
     transition state_0;
 }
@@ -75,7 +75,7 @@ state state_1 {
     }
 }
 state state_4 {
-    transition accept;
+    transition state_continue;
 }
 state state_6 {
     type = hdr.ethernet.etherType;
@@ -84,7 +84,7 @@ state state_6 {
     transition state_1;
 }
 state state_10 {
-    transition accept;
+    transition state_continue;
 }
 state state_14 {
     packet.extract(hdr.ipv4);

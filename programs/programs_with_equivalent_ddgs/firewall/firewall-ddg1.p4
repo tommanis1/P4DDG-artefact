@@ -80,7 +80,6 @@ parser MyParser (packet_in packet,
     inout standard_metadata_t standard_metadata) {
 
 // Make these global variables of the parser
-
 state start {
     transition state_0;
 }
@@ -93,7 +92,7 @@ state state_1 {
     transition state_24;
 }
 state state_4 {
-    transition accept;
+    transition state_continue;
 }
 state state_6 {
     transition select (hdr.ethernet.etherType == TYPE_IPV4,hdr.ethernet.etherType == TYPE_IPV4) {
@@ -108,7 +107,7 @@ state state_12 {
     transition state_1;
 }
 state state_22 {
-    transition accept;
+    transition state_continue;
 }
 state state_24 {
     transition select (hdr.ipv4.protocol != TYPE_TCP,hdr.ipv4.protocol == TYPE_TCP) {
@@ -123,7 +122,7 @@ state state_30 {
     packet.extract(hdr.tcp);
     transition state_26;
 }
-}
+state state_continue {transition accept;}}
 
 
 

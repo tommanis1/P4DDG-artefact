@@ -111,7 +111,6 @@ parser MyParser (packet_in packet,
     inout standard_metadata_t standard_metadata) {
 
 // Make these global variables of the parser
-
 return_stack_type[16] return_stack;
 bit<8> return_stack_index = 0;
 state start {
@@ -130,7 +129,7 @@ state state_2 {
     transition state_121;
 }
 state state_5 {
-    transition accept;
+    transition state_continue;
 }
 state state_7 {
     transition select (hdr.ethernet.etherType  == TYPE_DETNET ,hdr.ethernet.etherType  == TYPE_MYTUNNEL ) {
@@ -179,7 +178,7 @@ state state_47 {
     transition state_1;
 }
 state state_59 {
-    transition accept;
+    transition state_continue;
 }
 state state_63 {
     verify(hdr.ipv4.ihl >= 5, error.IPHeaderTooShort);
@@ -230,7 +229,7 @@ state state_107 {
     transition state_2;
 }
 state state_117 {
-    transition accept;
+    transition state_continue;
 }
 state state_121 {
     meta.parser_metadata.remaining = meta.parser_metadata.remaining - 1;

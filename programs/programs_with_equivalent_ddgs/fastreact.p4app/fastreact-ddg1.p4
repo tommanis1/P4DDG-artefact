@@ -155,7 +155,6 @@ parser MyParser (packet_in packet,
     inout standard_metadata_t standard_metadata) {
 
 // Make these global variables of the parser
-
 state start {
     transition state_0;
 }
@@ -164,7 +163,7 @@ state state_0 {
     transition state_5;
 }
 state state_3 {
-    transition accept;
+    transition state_continue;
 }
 state state_5 {
     transition select (hdr.ethernet.etherType  == ethernet_kind.ipv4 ,hdr.ethernet.etherType  == ethernet_kind.sensor ) {
@@ -191,7 +190,7 @@ state state_23 {
     packet.extract(hdr.ipv4);
     transition state_15;
 }
-}
+state state_continue {transition accept;}}
 
 
 

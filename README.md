@@ -37,4 +37,5 @@ sudo python3 main.py
 <!-- - `main.py`: Generates figure  -->
 - `run_eval_stack_usage.py`: Generates figure 14
 - `plot_equiv_delays.py`: Generates figure 13
+- `python gen_programs.py` : Generate P4 code from the DDGs in programs/programs_with_equivalent_ddgs using submodules/P4ddgC
 
