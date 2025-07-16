@@ -8,7 +8,7 @@ import docker
 from datetime import datetime
 import re
 from typing import NamedTuple, List
-IMG = "p4c-with-fix" #"tommanis/p4c-with-fix:latest"
+IMG = "tommanis/p4c-with-fix:latest"
 
 class Measurement(NamedTuple):
     value: int  # The measured value (delay in nanoseconds)
