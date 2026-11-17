@@ -29,7 +29,7 @@ sudo python3 main.py
 ## Submodules
 - P4ddgC: A compiler from P4ddg, a variant of the P4 language that uses data-dependent grammars (DDGs) to specify parsers (https://github.com/tommanis1/P4DDG)
 - bmv2: A fork of the behavioral model v2 with a minimal tweak to timestamp generation
-- p4c: A version of the reference P4 compiler with 
+- p4c: A version of the reference P4 compiler with a fix applied for reading from header stacks
 - p4app: A fork of p4app; a utility to run P4 code using mininet
 
 ## Scripts

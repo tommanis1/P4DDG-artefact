@@ -1,0 +1,112 @@
+2025-06-10 20:49:53,058 - DEBUG - Logging enabled
+2025-06-10 20:49:53,059 - DEBUG - Executing command: mkdir -p /tmp/p4ddg-experiment-runner-tmp
+2025-06-10 20:49:53,060 - DEBUG - Command output: 
+2025-06-10 20:49:53,060 - DEBUG - Command error: 
+2025-06-10 20:49:53,060 - DEBUG - Executing command: rm -rf /tmp/p4ddg-experiment-runner-tmp/
+2025-06-10 20:49:53,225 - DEBUG - Command output: 
+2025-06-10 20:49:53,225 - DEBUG - Command error: 
+2025-06-10 20:49:53,225 - DEBUG - Executing command: mkdir -p /tmp/p4ddg-experiment-runner-tmp
+2025-06-10 20:49:53,227 - DEBUG - Command output: 
+2025-06-10 20:49:53,228 - DEBUG - Command error: 
+2025-06-10 20:49:53,228 - INFO - Performing step 1 for programs/stack_usage/stack_usage-ddg-loop.p4
+2025-06-10 20:49:53,228 - DEBUG - Dirname stack_usage.stack_usage-ddg-loop.p4app
+2025-06-10 20:49:53,234 - DEBUG - Using custom packets fileprograms/stack_usage/packets_generated.txt
+2025-06-10 20:49:53,234 - DEBUG - Executing command: cp programs/stack_usage/packets_generated.txt /tmp/p4ddg-experiment-runner-tmp/stack_usage.stack_usage-ddg-loop.p4app
+2025-06-10 20:49:53,236 - DEBUG - Command output: 
+2025-06-10 20:49:53,237 - DEBUG - Command error: 
+2025-06-10 20:49:53,245 - DEBUG - Executing command: touch /tmp/p4ddg-experiment-runner-tmp/stack_usage.stack_usage-ddg-loop.p4app/packets.txt
+2025-06-10 20:49:53,246 - DEBUG - Command output: 
+2025-06-10 20:49:53,246 - DEBUG - Command error: 
+2025-06-10 20:49:53,252 - DEBUG - Executing command: submodules/p4app/p4app run /tmp/p4ddg-experiment-runner-tmp/stack_usage.stack_usage-ddg-loop.p4app
+2025-06-10 20:55:17,758 - DEBUG - Command output: going to run /tmp/p4ddg-experiment-runner-tmp/stack_usage.stack_usage-ddg-loop.p4app
+[1;32mRunning command:[0m ls
+mininet  p4apprunner.py  stf
+Entering build directory. /tmp/p4app
+[1;32mRunning command:[0m ls
+p4app.json	       send_packets.py			 stack_usage-loop.ddg
+p4app.json.old	       send_packets_old.py		 stack_usage.ddg
+packets.txt	       stack_usage-ddg-loop.p4		 stack_usage.p4
+packets_generated.txt  stack_usage-ddg-single-result.p4  topo.py
+[1;32mRunning command:[0m ls tmp
+ls: cannot access 'tmp': No such file or directory
+Error occurred: Command '['ls', 'tmp']' returned non-zero exit status 2.
+[1;32mRunning command:[0m ls /tmp/p4app
+p4app.json	       send_packets.py			 stack_usage-loop.ddg
+p4app.json.old	       send_packets_old.py		 stack_usage.ddg
+packets.txt	       stack_usage-ddg-loop.p4		 stack_usage.p4
+packets_generated.txt  stack_usage-ddg-single-result.p4  topo.py
+[1;32mRunning command:[0m touch /tmp/p4app_logs/p4s.s1.log
+[1;32mRunning command:[0m ln -s /tmp/p4app_logs/p4s.s1.log /tmp/p4s.s1.log
+Reading package manifest.
+[1;32mRunning command:[0m ls
+p4app.json	       send_packets.py			 stack_usage-loop.ddg
+p4app.json.old	       send_packets_old.py		 stack_usage.ddg
+packets.txt	       stack_usage-ddg-loop.p4		 stack_usage.p4
+packets_generated.txt  stack_usage-ddg-single-result.p4  topo.py
+[1;32mRunning command:[0m p4c-bm2-ss  --arch v1model --p4v 16 stack_usage-ddg-loop.p4 -o stack_usage-ddg-loo.json
+stack_usage-ddg-loop.p4(37): [--Wwarn=uninitialized_use] warning: tmp may be uninitialized
+        transition select (tmp) {
+                           ^^^
+stack_usage-ddg-loop.p4(54): [--Wwarn=uninitialized_use] warning: tmp may be uninitialized
+        transition select (tmp) {
+                           ^^^
+[1;32mRunning command:[0m python3 /scripts/mininet/multi_switch_mininet.py --log-dir "/tmp/p4app_logs" --manifest "./p4app.json" --target "multiswitch" --auto-control-plane --behavioral-exe "simple_switch" --cli-path "simple_switch_CLI" --json "stack_usage-ddg-loo.json"
+<module 'topo' from '/tmp/p4app/./topo.py'>
+{'h1': {'ip': '10.0.0.1/24', 'mac': '08:00:00:00:01:00', 'main_command': ['python3 send_packets.py --packets packets.txt --output output.txt --repeat 50 > send_packets.out 2>&1']}}
+h1
+{'ip': '10.0.0.1/24', 'mac': '08:00:00:00:01:00', 'main_command': ['python3 send_packets.py --packets packets.txt --output output.txt --repeat 50 > send_packets.out 2>&1']}
+sdgsfg{'ip': '10.0.0.1/24', 'mac': '08:00:00:00:01:00', 'main_command': ['python3 send_packets.py --packets packets.txt --output output.txt --repeat 50 > send_packets.out 2>&1']}
+{'ip': '10.0.0.1/24', 'mac': '08:00:00:00:01:00', 'main_command': ['python3 send_packets.py --packets packets.txt --output output.txt --repeat 50 > send_packets.out 2>&1']}
+host_ip:10.0.0.1/24
+*** Error setting resource limits. Mininet's performance may be affected.
+*** Creating network
+*** Adding hosts:
+h1 
+*** Adding switches:
+s1 
+*** Adding links:
+(0ms delay) (0ms delay) (h1, s1) 
+*** Configuring hosts
+h1 
+*** Starting controller
+
+*** Starting 1 switches
+s1 Starting P4 switch s1.
+simple_switch -i 1@s1-eth1 --thrift-port 9090 --nanolog ipc:///tmp/bm-0-log.ipc --device-id 0 stack_usage-ddg-loo.json --log-console
+P4 switch s1 has been started.
+
+Result for running switch commands: Obtaining JSON from switch...
+Done
+Control utility for runtime P4 table manipulation
+RuntimeCmd: Error: Invalid table name (send_frame)
+RuntimeCmd: Error: Invalid table name (forward)
+RuntimeCmd: Error: Invalid table name (ipv4_lpm)
+RuntimeCmd: Error: Invalid table name (send_frame)
+RuntimeCmd: Error: Invalid table name (forward)
+RuntimeCmd: Error: Invalid table name (ipv4_lpm)
+RuntimeCmd: 
+
+**********
+Network configuration for: h1
+Default interface: h1-eth0	10.0.0.1	08:00:00:00:01:00
+params: {'ip': '10.0.0.1/24', 'mac': '08:00:00:00:01:00'}
+**********
+Found main command for h1: ['python3 send_packets.py --packets packets.txt --output output.txt --repeat 50 > send_packets.out 2>&1']
+
+
+*** Stopping 0 controllers
+
+*** Stopping 1 links
+.
+*** Stopping 1 switches
+s1 
+*** Stopping 1 hosts
+h1 
+*** Done
+2025-06-10 20:55:17,758 - DEBUG - Command error: 
+2025-06-10 20:55:17,758 - DEBUG - Executing command: cp /tmp/p4app_logs/p4s.s1.log /tmp/p4ddg-experiment-runner-tmp/stack_usage.stack_usage-ddg-loop.p4app/p4s.s1.log
+2025-06-10 20:55:17,978 - DEBUG - Command output: 
+2025-06-10 20:55:17,978 - DEBUG - Command error: 
+2025-06-10 20:55:17,978 - DEBUG - Executing command: rm -rf /tmp/p4app_logs/p4s.s1.log
+2025-06-10 20:55:18,039 - DEBUG - Command output: 
+2025-06-10 20:55:18,039 - DEBUG - Command error: 

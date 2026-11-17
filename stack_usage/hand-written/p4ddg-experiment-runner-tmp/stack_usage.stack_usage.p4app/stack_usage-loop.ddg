@@ -1,0 +1,1 @@
+Hdr = hdr.num {n = hdr.num.val;} ([n != 0] hdr.header_stack {n = n - 1;}) * [n == 0] $

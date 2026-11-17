@@ -1,0 +1,33 @@
+{
+    "program": "stack_usage-ddg-loop.p4",
+    "language": "p4-16",
+    "targets": {
+      "multiswitch": {
+          "bmv2_log": true,
+          "tmux": false,
+          "cli":false,
+          "topo_module": "topo"
+          , "auto-control-plane": true
+          , "links": [
+          [
+              "h1",
+              "s1"
+          ]
+      ]
+      ,
+        "switches": {
+            "s1": {
+            }
+        },
+    "hosts": {
+            "h1": {
+              "ip": "10.0.0.1/24",
+              "mac": "08:00:00:00:01:00",
+              "main_command": [
+                  "python3 send_packets.py --packets packets.txt --output output.txt --repeat 50 > send_packets.out 2>&1"
+              ]
+          }
+      }
+  }
+    }
+    }

@@ -1,0 +1,594 @@
+2025-07-11 13:24:07,710 - DEBUG - Logging enabled
+2025-07-11 13:24:07,711 - DEBUG - Executing command: mkdir -p /tmp/p4ddg-experiment-runner-tmp
+2025-07-11 13:24:07,712 - DEBUG - Command output: 
+2025-07-11 13:24:07,712 - DEBUG - Command error: 
+2025-07-11 13:24:07,712 - DEBUG - Executing command: rm -rf /tmp/p4ddg-experiment-runner-tmp/
+2025-07-11 13:24:07,719 - DEBUG - Command output: 
+2025-07-11 13:24:07,719 - DEBUG - Command error: rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/__pycache__/topo.cpython-38.pyc': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_20.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_18.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_7.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_16.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_23.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_12.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_42.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_32.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_31.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_4.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_37.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_1.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_25.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_28.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_36.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_38.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_26.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_29.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_30.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_22.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_33.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_13.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_34.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_3.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_41.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_17.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_9.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_21.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_15.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_19.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_24.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_10.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_2.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_11.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_5.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_35.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_8.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_39.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_27.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_40.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_14.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall.p4app/out-p4testgen/firewall_6.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/__pycache__/topo.cpython-38.pyc': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_24.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_41.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_3.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_6.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_32.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_38.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_21.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_46.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_26.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_20.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_8.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_17.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_1.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_33.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_36.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_18.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_50.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_42.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_43.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_51.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_53.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_11.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_10.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_14.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_31.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_35.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_48.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_19.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_4.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_44.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_39.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_37.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_23.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_40.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_22.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_9.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_16.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_2.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_25.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_12.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_49.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_30.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_29.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_27.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_34.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_47.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_45.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_5.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_7.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_13.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_15.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_28.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache.p4app/out-p4testgen/cache_52.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/__pycache__/topo.cpython-38.pyc': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_6.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_64.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_76.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_48.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_54.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_36.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_20.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_9.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_66.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_42.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_30.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_53.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_40.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_46.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_10.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_16.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_23.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_44.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_47.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_51.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_29.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_8.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_31.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_5.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_17.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_14.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_13.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_71.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_33.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_74.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_18.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_25.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_24.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_72.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_21.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_61.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_11.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_67.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_68.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_34.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_50.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_59.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_60.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_1.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_32.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_49.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_75.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_19.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_27.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_39.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_41.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_43.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_69.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_70.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_62.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_4.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_26.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_65.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_7.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_2.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_3.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_37.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_15.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_58.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_57.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_12.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_38.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_73.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_28.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_45.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_22.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_63.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_56.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_52.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_55.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc.p4app/out-p4testgen/sfc_35.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/sfc-integrity.sfc-ddg1.p4app/__pycache__/topo.cpython-38.pyc': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/cpsc435-switch-cache.cache-ddg1.p4app/__pycache__/topo.cpython-38.pyc': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/__pycache__/topo.cpython-38.pyc': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_22.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_31.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_73.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_63.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_75.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_43.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_45.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_2.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_24.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_49.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_53.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_46.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_47.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_55.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_37.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_20.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_21.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_65.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_51.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_13.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_42.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_61.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_11.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_32.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_19.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_27.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_48.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_35.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_10.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_74.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_9.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_34.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_58.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_23.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_76.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_12.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_57.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_17.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_54.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_33.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_50.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_44.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_15.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_59.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_30.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_8.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_16.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_38.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_62.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_69.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_64.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_72.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_29.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_3.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_26.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_40.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_52.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_28.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_70.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_68.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_7.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_71.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_66.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_60.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_18.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_67.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_41.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_4.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_39.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_1.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_56.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_36.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_6.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_14.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_25.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/out-p4testgen/detnetServices_5.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/firewall.firewall-ddg1.p4app/__pycache__/topo.cpython-38.pyc': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/tunnel.tunnel-ddg1.p4app/__pycache__/topo.cpython-38.pyc': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/__pycache__/topo.cpython-38.pyc': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_41.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_7.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_2.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_43.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_37.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_36.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_55.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_64.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_70.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_27.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_50.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_13.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_33.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_15.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_14.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_62.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_25.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_52.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_42.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_24.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_66.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_20.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_11.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_3.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_6.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_21.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_30.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_28.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_48.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_75.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_71.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_57.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_58.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_61.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_38.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_68.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_46.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_1.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_72.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_19.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_8.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_65.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_4.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_26.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_40.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_39.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_17.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_76.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_44.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_53.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_47.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_18.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_54.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_5.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_22.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_29.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_74.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_12.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_9.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_34.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_56.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_60.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_49.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_31.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_10.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_69.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_16.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_45.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_35.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_32.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_59.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_73.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_23.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_67.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_51.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact.p4app/out-p4testgen/fastreact_63.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/stress.basic_tunnel.p4app/__pycache__/topo.cpython-38.pyc': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/stress.basic_tunnel.p4app/out-p4testgen/basic_tunnel_1.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/stress.basic_tunnel.p4app/out-p4testgen/basic_tunnel_5.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/stress.basic_tunnel.p4app/out-p4testgen/basic_tunnel_6.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/stress.basic_tunnel.p4app/out-p4testgen/basic_tunnel_10.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/stress.basic_tunnel.p4app/out-p4testgen/basic_tunnel_11.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/stress.basic_tunnel.p4app/out-p4testgen/basic_tunnel_8.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/stress.basic_tunnel.p4app/out-p4testgen/basic_tunnel_3.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/stress.basic_tunnel.p4app/out-p4testgen/basic_tunnel_12.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/stress.basic_tunnel.p4app/out-p4testgen/basic_tunnel_7.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/stress.basic_tunnel.p4app/out-p4testgen/basic_tunnel_4.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/stress.basic_tunnel.p4app/out-p4testgen/basic_tunnel_2.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/stress.basic_tunnel.p4app/out-p4testgen/basic_tunnel_9.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/running_example.basic_tunnel.p4app/__pycache__/topo.cpython-38.pyc': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/running_example.basic_tunnel.p4app/out-p4testgen/basic_tunnel_1.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/running_example.basic_tunnel.p4app/out-p4testgen/basic_tunnel_5.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/running_example.basic_tunnel.p4app/out-p4testgen/basic_tunnel_6.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/running_example.basic_tunnel.p4app/out-p4testgen/basic_tunnel_8.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/running_example.basic_tunnel.p4app/out-p4testgen/basic_tunnel_3.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/running_example.basic_tunnel.p4app/out-p4testgen/basic_tunnel_7.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/running_example.basic_tunnel.p4app/out-p4testgen/basic_tunnel_4.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/running_example.basic_tunnel.p4app/out-p4testgen/basic_tunnel_2.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/stress.basic_tunnel-ddg.p4app/__pycache__/topo.cpython-38.pyc': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices-ddg1.p4app/__pycache__/topo.cpython-38.pyc': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/fastreact.p4app.fastreact-ddg1.p4app/__pycache__/topo.cpython-38.pyc': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/tunnel.tunnel.p4app/__pycache__/topo.cpython-38.pyc': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/tunnel.tunnel.p4app/out-p4testgen/tunnel_2.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/tunnel.tunnel.p4app/out-p4testgen/tunnel_5.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/tunnel.tunnel.p4app/out-p4testgen/tunnel_3.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/tunnel.tunnel.p4app/out-p4testgen/tunnel_8.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/tunnel.tunnel.p4app/out-p4testgen/tunnel_1.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/tunnel.tunnel.p4app/out-p4testgen/tunnel_7.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/tunnel.tunnel.p4app/out-p4testgen/tunnel_4.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/tunnel.tunnel.p4app/out-p4testgen/tunnel_6.stf': Permission denied
+rm: cannot remove '/tmp/p4ddg-experiment-runner-tmp/running_example.basic_tunnel-ddg.p4app/__pycache__/topo.cpython-38.pyc': Permission denied
+2025-07-11 13:24:07,719 - DEBUG - Executing command: mkdir -p /tmp/p4ddg-experiment-runner-tmp
+2025-07-11 13:24:07,721 - DEBUG - Command output: 
+2025-07-11 13:24:07,721 - DEBUG - Command error: 
+2025-07-11 13:24:07,721 - INFO - Performing step 1 for /personal/docs/uni/year_6/papers/p4ddg/artifact/programs/programs_with_equivalent_ddgs/DetNetServices/detnetServices.p4
+2025-07-11 13:24:07,721 - DEBUG - Dirname DetNetServices.detnetServices.p4app
+2025-07-11 13:24:07,726 - DEBUG - Trying paths: ['/home/t/.docker/config.json', '/home/t/.dockercfg']
+2025-07-11 13:24:07,726 - DEBUG - Found file at path: /home/t/.docker/config.json
+2025-07-11 13:24:07,726 - DEBUG - Found 'auths' section
+2025-07-11 13:24:07,726 - DEBUG - Found entry (registry='https://index.docker.io/v1/', username='tommanis')
+2025-07-11 13:24:07,726 - DEBUG - Found entry (registry='https://index.docker.io/v1/access-token', username='tommanis')
+2025-07-11 13:24:07,726 - DEBUG - Found entry (registry='https://index.docker.io/v1/refresh-token', username='tommanis')
+2025-07-11 13:24:07,732 - DEBUG - http://localhost:None "GET /version HTTP/1.1" 200 822
+2025-07-11 13:24:07,753 - DEBUG - http://localhost:None "POST /v1.49/containers/create HTTP/1.1" 201 88
+2025-07-11 13:24:07,754 - DEBUG - http://localhost:None "GET /v1.49/containers/cf2867b6c3d2242d5a47fa6e0a6ee4dd313b718aaeba0c5e10f0ec052c29724d/json HTTP/1.1" 200 None
+2025-07-11 13:24:07,857 - DEBUG - http://localhost:None "POST /v1.49/containers/cf2867b6c3d2242d5a47fa6e0a6ee4dd313b718aaeba0c5e10f0ec052c29724d/start HTTP/1.1" 204 0
+2025-07-11 13:24:07,859 - DEBUG - http://localhost:None "GET /v1.49/containers/cf2867b6c3d2242d5a47fa6e0a6ee4dd313b718aaeba0c5e10f0ec052c29724d/logs?stderr=0&stdout=1&timestamps=0&follow=1&tail=all HTTP/1.1" 200 None
+2025-07-11 13:24:07,859 - DEBUG - http://localhost:None "GET /v1.49/containers/cf2867b6c3d2242d5a47fa6e0a6ee4dd313b718aaeba0c5e10f0ec052c29724d/json HTTP/1.1" 200 None
+2025-07-11 13:24:07,860 - DEBUG - http://localhost:None "POST /v1.49/containers/cf2867b6c3d2242d5a47fa6e0a6ee4dd313b718aaeba0c5e10f0ec052c29724d/wait HTTP/1.1" 200 None
+2025-07-11 13:24:08,581 - DEBUG - http://localhost:None "DELETE /v1.49/containers/cf2867b6c3d2242d5a47fa6e0a6ee4dd313b718aaeba0c5e10f0ec052c29724d?v=False&link=False&force=False HTTP/1.1" 204 0
+2025-07-11 13:24:08,582 - DEBUG - CALLED parse_stf_files
+2025-07-11 13:24:08,595 - DEBUG - Executing command: touch /tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/packets.txt
+2025-07-11 13:24:08,597 - DEBUG - Command output: 
+2025-07-11 13:24:08,597 - DEBUG - Command error: 
+2025-07-11 13:24:08,602 - DEBUG - Executing command: submodules/p4app/p4app run /tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app
+2025-07-11 13:24:10,953 - DEBUG - Command output: going to run /tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app
+[1;32mRunning command:[0m ls
+mininet  p4apprunner.py  stf
+Entering build directory. /tmp/p4app
+[1;32mRunning command:[0m ls
+MyParser.png		detnetServices.ddg  packets.txt
+README.md		detnetServices.p4   send_packets.py
+__pycache__		out-p4testgen	    send_packets_old.py
+detnetServices-ddg.p4f	p4app.json	    topo.py
+detnetServices-ddg1.p4	p4app.json.old
+[1;32mRunning command:[0m ls tmp
+ls: cannot access 'tmp': No such file or directory
+Error occurred: Command '['ls', 'tmp']' returned non-zero exit status 2.
+[1;32mRunning command:[0m ls /tmp/p4app
+MyParser.png		detnetServices.ddg  packets.txt
+README.md		detnetServices.p4   send_packets.py
+__pycache__		out-p4testgen	    send_packets_old.py
+detnetServices-ddg.p4f	p4app.json	    topo.py
+detnetServices-ddg1.p4	p4app.json.old
+[1;32mRunning command:[0m touch /tmp/p4app_logs/p4s.s1.log
+[1;32mRunning command:[0m ln -s /tmp/p4app_logs/p4s.s1.log /tmp/p4s.s1.log
+Reading package manifest.
+[1;32mRunning command:[0m ls
+MyParser.png		detnetServices.ddg  packets.txt
+README.md		detnetServices.p4   send_packets.py
+__pycache__		out-p4testgen	    send_packets_old.py
+detnetServices-ddg.p4f	p4app.json	    topo.py
+detnetServices-ddg1.p4	p4app.json.old
+[1;32mRunning command:[0m p4c-bm2-ss  --arch v1model --p4v 16 detnetServices.p4 -o detnetServices.json
+[1;32mRunning command:[0m python3 /scripts/mininet/multi_switch_mininet.py --log-dir "/tmp/p4app_logs" --manifest "./p4app.json" --target "multiswitch" --auto-control-plane --behavioral-exe "simple_switch" --cli-path "simple_switch_CLI" --json "detnetServices.json"
+<module 'topo' from '/tmp/p4app/./topo.py'>
+{'h1': {'ip': '10.0.0.1/24', 'mac': '08:00:00:00:01:00', 'main_command': ['python3 send_packets.py --packets packets.txt --output output.txt --repeat 1 > send_packets.out 2>&1']}}
+h1
+{'ip': '10.0.0.1/24', 'mac': '08:00:00:00:01:00', 'main_command': ['python3 send_packets.py --packets packets.txt --output output.txt --repeat 1 > send_packets.out 2>&1']}
+sdgsfg{'ip': '10.0.0.1/24', 'mac': '08:00:00:00:01:00', 'main_command': ['python3 send_packets.py --packets packets.txt --output output.txt --repeat 1 > send_packets.out 2>&1']}
+{'ip': '10.0.0.1/24', 'mac': '08:00:00:00:01:00', 'main_command': ['python3 send_packets.py --packets packets.txt --output output.txt --repeat 1 > send_packets.out 2>&1']}
+host_ip:10.0.0.1/24
+*** Error setting resource limits. Mininet's performance may be affected.
+*** Creating network
+*** Adding hosts:
+h1 
+*** Adding switches:
+s1 
+*** Adding links:
+(0ms delay) (0ms delay) (h1, s1) 
+*** Configuring hosts
+h1 
+*** Starting controller
+
+*** Starting 1 switches
+s1 Starting P4 switch s1.
+simple_switch -i 1@s1-eth1 --thrift-port 9090 --nanolog ipc:///tmp/bm-0-log.ipc --device-id 0 detnetServices.json --log-console
+P4 switch s1 has been started.
+
+Result for running switch commands: Obtaining JSON from switch...
+Done
+Control utility for runtime P4 table manipulation
+RuntimeCmd: Error: Invalid table name (send_frame)
+RuntimeCmd: Error: Invalid table name (forward)
+RuntimeCmd: Error: Table ipv4_lpm has no action _drop
+RuntimeCmd: Error: Invalid table name (send_frame)
+RuntimeCmd: Error: Invalid table name (forward)
+RuntimeCmd: Error: Table ipv4_lpm has no action set_nhop
+RuntimeCmd: 
+
+**********
+Network configuration for: h1
+Default interface: h1-eth0	10.0.0.1	08:00:00:00:01:00
+params: {'ip': '10.0.0.1/24', 'mac': '08:00:00:00:01:00'}
+**********
+Found main command for h1: ['python3 send_packets.py --packets packets.txt --output output.txt --repeat 1 > send_packets.out 2>&1']
+
+
+*** Stopping 0 controllers
+
+*** Stopping 1 links
+.
+*** Stopping 1 switches
+s1 
+*** Stopping 1 hosts
+h1 
+*** Done
+2025-07-11 13:24:10,953 - DEBUG - Command error: 
+2025-07-11 13:24:10,953 - DEBUG - Executing command: cp /tmp/p4app_logs/p4s.s1.log /tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices.p4app/p4s.s1.log
+2025-07-11 13:24:10,955 - DEBUG - Command output: 
+2025-07-11 13:24:10,955 - DEBUG - Command error: 
+2025-07-11 13:24:10,955 - DEBUG - Executing command: rm -rf /tmp/p4app_logs/p4s.s1.log
+2025-07-11 13:24:10,957 - DEBUG - Command output: 
+2025-07-11 13:24:10,957 - DEBUG - Command error: rm: cannot remove '/tmp/p4app_logs/p4s.s1.log': Permission denied
+2025-07-11 13:24:10,965 - DEBUG - Executing command: touch /tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices-ddg1.p4app/packets.txt
+2025-07-11 13:24:10,967 - DEBUG - Command output: 
+2025-07-11 13:24:10,967 - DEBUG - Command error: 
+2025-07-11 13:24:10,971 - DEBUG - Executing command: submodules/p4app/p4app run /tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices-ddg1.p4app
+2025-07-11 13:24:13,364 - DEBUG - Command output: going to run /tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices-ddg1.p4app
+[1;32mRunning command:[0m ls
+mininet  p4apprunner.py  stf
+Entering build directory. /tmp/p4app
+[1;32mRunning command:[0m ls
+MyParser.png		detnetServices-ddg1.p4	p4app.json.old	     topo.py
+README.md		detnetServices.ddg	packets.txt
+__pycache__		detnetServices.p4	send_packets.py
+detnetServices-ddg.p4f	p4app.json		send_packets_old.py
+[1;32mRunning command:[0m ls tmp
+ls: cannot access 'tmp': No such file or directory
+Error occurred: Command '['ls', 'tmp']' returned non-zero exit status 2.
+[1;32mRunning command:[0m ls /tmp/p4app
+MyParser.png		detnetServices-ddg1.p4	p4app.json.old	     topo.py
+README.md		detnetServices.ddg	packets.txt
+__pycache__		detnetServices.p4	send_packets.py
+detnetServices-ddg.p4f	p4app.json		send_packets_old.py
+[1;32mRunning command:[0m touch /tmp/p4app_logs/p4s.s1.log
+[1;32mRunning command:[0m ln -s /tmp/p4app_logs/p4s.s1.log /tmp/p4s.s1.log
+Reading package manifest.
+[1;32mRunning command:[0m ls
+MyParser.png		detnetServices-ddg1.p4	p4app.json.old	     topo.py
+README.md		detnetServices.ddg	packets.txt
+__pycache__		detnetServices.p4	send_packets.py
+detnetServices-ddg.p4f	p4app.json		send_packets_old.py
+[1;32mRunning command:[0m p4c-bm2-ss  --arch v1model --p4v 16 detnetServices-ddg1.p4 -o detnetServices-ddg1.json
+detnetServices-ddg1.p4(255): [--Wwarn=uninitialized_use] warning: return_stack[return_stack_index].val may be uninitialized
+        tmp_return = return_stack[return_stack_index].val;
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+detnetServices-ddg1.p4(159): [--Wwarn=invalid_header] warning: accessing a field of an invalid header return_stack[return_stack_index]
+    return_stack[return_stack_index].val = 1;
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+detnetServices-ddg1.p4(177): [--Wwarn=invalid_header] warning: accessing a field of an invalid header return_stack[return_stack_index]
+    return_stack[return_stack_index].val = 2;
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+detnetServices-ddg1.p4(228): [--Wwarn=invalid_header] warning: accessing a field of an invalid header return_stack[return_stack_index]
+    return_stack[return_stack_index].val = 3;
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+detnetServices-ddg1.p4(249): [--Wwarn=invalid_header] warning: accessing a field of an invalid header return_stack[return_stack_index]
+    return_stack[return_stack_index].val = 4;
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+detnetServices-ddg1.p4(255): [--Wwarn=invalid_header] warning: accessing a field of an invalid header return_stack[return_stack_index]
+        tmp_return = return_stack[return_stack_index].val;
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1;32mRunning command:[0m python3 /scripts/mininet/multi_switch_mininet.py --log-dir "/tmp/p4app_logs" --manifest "./p4app.json" --target "multiswitch" --auto-control-plane --behavioral-exe "simple_switch" --cli-path "simple_switch_CLI" --json "detnetServices-ddg1.json"
+<module 'topo' from '/tmp/p4app/./topo.py'>
+{'h1': {'ip': '10.0.0.1/24', 'mac': '08:00:00:00:01:00', 'main_command': ['python3 send_packets.py --packets packets.txt --output output.txt --repeat 1 > send_packets.out 2>&1']}}
+h1
+{'ip': '10.0.0.1/24', 'mac': '08:00:00:00:01:00', 'main_command': ['python3 send_packets.py --packets packets.txt --output output.txt --repeat 1 > send_packets.out 2>&1']}
+sdgsfg{'ip': '10.0.0.1/24', 'mac': '08:00:00:00:01:00', 'main_command': ['python3 send_packets.py --packets packets.txt --output output.txt --repeat 1 > send_packets.out 2>&1']}
+{'ip': '10.0.0.1/24', 'mac': '08:00:00:00:01:00', 'main_command': ['python3 send_packets.py --packets packets.txt --output output.txt --repeat 1 > send_packets.out 2>&1']}
+host_ip:10.0.0.1/24
+*** Error setting resource limits. Mininet's performance may be affected.
+*** Creating network
+*** Adding hosts:
+h1 
+*** Adding switches:
+s1 
+*** Adding links:
+(0ms delay) (0ms delay) (h1, s1) 
+*** Configuring hosts
+h1 
+*** Starting controller
+
+*** Starting 1 switches
+s1 Starting P4 switch s1.
+simple_switch -i 1@s1-eth1 --thrift-port 9090 --nanolog ipc:///tmp/bm-0-log.ipc --device-id 0 detnetServices-ddg1.json --log-console
+P4 switch s1 has been started.
+
+Result for running switch commands: Obtaining JSON from switch...
+Done
+Control utility for runtime P4 table manipulation
+RuntimeCmd: Error: Invalid table name (send_frame)
+RuntimeCmd: Error: Invalid table name (forward)
+RuntimeCmd: Error: Table ipv4_lpm has no action _drop
+RuntimeCmd: Error: Invalid table name (send_frame)
+RuntimeCmd: Error: Invalid table name (forward)
+RuntimeCmd: Error: Table ipv4_lpm has no action set_nhop
+RuntimeCmd: 
+
+**********
+Network configuration for: h1
+Default interface: h1-eth0	10.0.0.1	08:00:00:00:01:00
+params: {'ip': '10.0.0.1/24', 'mac': '08:00:00:00:01:00'}
+**********
+Found main command for h1: ['python3 send_packets.py --packets packets.txt --output output.txt --repeat 1 > send_packets.out 2>&1']
+
+
+*** Stopping 0 controllers
+
+*** Stopping 1 links
+.
+*** Stopping 1 switches
+s1 
+*** Stopping 1 hosts
+h1 
+*** Done
+2025-07-11 13:24:13,364 - DEBUG - Command error: 
+2025-07-11 13:24:13,364 - DEBUG - Executing command: cp /tmp/p4app_logs/p4s.s1.log /tmp/p4ddg-experiment-runner-tmp/DetNetServices.detnetServices-ddg1.p4app/p4s.s1.log
+2025-07-11 13:24:13,367 - DEBUG - Command output: 
+2025-07-11 13:24:13,367 - DEBUG - Command error: 
+2025-07-11 13:24:13,367 - DEBUG - Executing command: rm -rf /tmp/p4app_logs/p4s.s1.log
+2025-07-11 13:24:13,369 - DEBUG - Command output: 
+2025-07-11 13:24:13,369 - DEBUG - Command error: rm: cannot remove '/tmp/p4app_logs/p4s.s1.log': Permission denied

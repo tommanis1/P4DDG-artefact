@@ -1,7 +1,0 @@
-MyParser = hdr.ethernet 
-    if [hdr.ethernet.etherType == TYPE_IPV4] then Ipv4() else ()
-    $
-
-Ipv4 = hdr.ipv4 
-(([hdr.ipv4.protocol == TYPE_TCP] hdr.tcp) | [hdr.ipv4.protocol != TYPE_TCP] () ) 
-$
